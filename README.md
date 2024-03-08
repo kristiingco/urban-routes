@@ -2,51 +2,35 @@
 
 **Project Overview:**
 
-Briefly describe the nature of the project and its objectives.
-Mention the technologies used (e.g., databases, bash commands).
+Urban Routes is an application designed to create routes, determining travel time and expenses across various modes of transportation.
+
+The application underwent thorough manual QA testing, with Chrome DevTools playing a crucial role. JIRA and Google Workspace were indispensable tools for analyzing and designing test cases during the manual testing phase.
 
 **Your Role and Contributions:**
 
-Describe your specific role in the project.
-Highlight the tasks you handled and the challenges you faced.
+In my role as a QA engineer, my responsibilities included:
+- Formulating test cases by employing thorough analysis and design, utilizing black-box testing techniques
+- Validating data input through the web application's forms
+- Employing Chrome DevTools to scrutinize HTTP responses and, if needed, override specific responses to test new features.
 
 **Project Deliverables:**
 
-List the key deliverables of Sprint 5's project.
-Mention any specific goals you achieved during this sprint.
+A document focusing on the breakdown of the requirements into test conditions and a list of test cases done to validate form input can be found [here](https://drive.google.com/drive/folders/1NXW3oTlJ3Sam4GZrt_dzkENficCDbd_q?usp=drive_link).
+
+Meanwhile, the document with the test conditions and a spreadsheet of test cases for adding a payment method and a new transportation mode can be found [here](https://drive.google.com/drive/folders/1H2dqaO3UWEjiYcm5Nna1nRgFKYj_Or9e?usp=drive_link)
 
 **Testing Approach:**
 
-Explain the testing strategy you employed during Sprint 5.
-Discuss the types of tests conducted (e.g., functional, integration, database etc.).
-Highlight the importance of testing in ensuring the project's quality.
+Functional system testing was heavily carried out. This testing approach was highly dependent on the test cases created.
+The test cases were developed using black-box testing techniques, especially equivalence partitioning and boundary value analysis.
+Both positive and negative scenarios were considered and tested.
 
 **List of Tests Conducted:**
 
-Present a detailed list of the tests you ran during Sprint 5.
-Categorize the tests according to their types (e.g., SQL queries, bash commands).
+A comprehensive list of tests can be found in the aforementioned deliverables.
 
-**Screenshot of Test Results:**
+**Test Results:**
 
-Include a screenshot of the terminal showing the results of the tests.
-Ensure the screenshot is clear and easy to read.
+The total number of test cases done is 88. Out of 88, 54.5% of tests had passed (48), while 45.5% of tests had failed (40).
 
-**Challenges Faced:**
 
-Discuss any challenges or roadblocks you encountered during the project.
-Explain how you overcame them or what lessons you learned.
-
-**Results and Outcomes:**
-
-Provide an overview of the overall results achieved in Sprint 5.
-Mention any improvements made to the project based on your testing.
-
-**Key Takeaways:**
-
-Reflect on the experience gained during this project.
-Mention any new skills acquired or areas of improvement.
-
-**Conclusion:**
-
-Summarize the overall project experience.
-Express gratitude to team members, instructors, or mentors who supported you.
